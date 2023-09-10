@@ -18,6 +18,7 @@ jobs:
           release-type: ruby
           package-name: rackstaticapp
           bump-minor-pre-major: true
+          bump-patch-for-minor-pre-major: true
           version-file: "lib/rackstaticapp/version.rb"
 
       # Checkout code if release was created
